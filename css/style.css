@@ -1,0 +1,7 @@
+
+#workspace_canvas {
+  var workspace = document.getElementById("workspace_canvas");
+  var ctx = workspace.getContext("2d");
+  var props = new main_window();
+  ctx.fillRect(0,0,10,10);
+}
